@@ -1,0 +1,354 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/********font-family names
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+***************/
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.first-section {
+  height: 100vh;
+  width: 100%;
+  background: url("1background.png");
+
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.header {
+  padding: 18px;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0px;
+}
+.h-right {
+  text-align: right;
+}
+.contact img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.menus {
+  padding: 15px 0px;
+}
+.menus ul li a {
+  text-decoration: none;
+  color: #3d2514;
+  margin-left: 50px;
+  font-family: "Bebas Neue", cursive;
+  font-size: 21px;
+}
+.menus ul li {
+  list-style: none;
+}
+.h-right span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+/* menu hover */
+.f-mid-sec {
+  display: flex;
+}
+.f-mid {
+  display: flex;
+}
+.f-mid {
+  display: flex;
+  justify-content: space-between;
+}
+.f-mid-left {
+  text-transform: uppercase;
+}
+.f-mid-left p-1 {
+  color: #3d2514;
+  font-family: "Bebas Neue", cursive;
+  font-size: 24px;
+  border-style: solid;
+  padding: 3px 6px;
+  border-style: dashed;
+}
+.f-mid-left h1 {
+  margin-top: 15px;
+  font-family: "Alfa Slab One", cursive;
+  color: #3d2514;
+  font-size: 90px;
+  text-shadow: 3px 3px 4px white;
+}
+.f-mid-left p-2 {
+  font-family: "Alfa Slab One", cursive;
+  color: #3d2514;
+  font-size: 60px;
+  text-shadow: 2px 2px 4px white;
+}
+.portfolios {
+  width: 100%;
+}
+.Portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin: 80px 0px;
+}
+.p-content {
+  position: relative;
+}
+.img-text {
+  position: absolute;
+  top: 12px;
+  left: 15px;
+}
+.p-content p-3 {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 28px;
+}
+.p-content h2 {
+  font-family: "Bebas Neue", cursive;
+  color: white;
+  font-size: 34px;
+  letter-spacing: 2px;
+}
+.line-split {
+  width: 150px;
+  line-height: 30px;
+}
+.secondim {
+  margin-top: 31px;
+}
+.third-sections {
+  text-align: center;
+  margin-top: 10px;
+}
+p-4 {
+  font-family: "Bebas Neue", cursive;
+  color: #3d2514;
+  font-size: 24px;
+  background-color: #ffbf45;
+  padding: 6px 14px;
+}
+p-5 {
+  font-family: "Alfa Slab One", cursive;
+  color: #3d2514;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+p-6 {
+  font-family: "Montserrat", sans-serif;
+  color: #92847b;
+}
+.burger-images {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-evenly;
+}
+p-7 {
+  text-transform: uppercase;
+  color: #3d2514;
+  display: block;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 40px;
+  font-size: 24px;
+  font-family: "Bebas Neue", cursive;
+}
+.bur {
+  margin-bottom: -20px;
+}
+.bur0 {
+  margin-top: 15px;
+}
+p-8 {
+  font-family: "Montserrat", sans-serif;
+  color: #3d2514;
+  margin-top: 10px;
+  text-align: center;
+  justify-content: center;
+  display: inline-block;
+  margin-top: 10px;
+}
+.btn {
+  font-family: "Alfa Slab One", cursive;
+  text-align: center;
+  margin-top: 30px;
+}
+.btn a {
+  text-decoration: none;
+  border-radius: 3px;
+  background: #bf2121;
+  color: white;
+  padding: 10px 20px;
+}
+
+.fifth-sections {
+  margin-top: 90px;
+}
+.slider {
+  display: flex;
+  justify-content: space-between;
+}
+p-9 {
+  font-family: "Bebas Neue", cursive;
+  color: #3d2514;
+  font-size: 35px;
+}
+h3 {
+  font-family: "Alfa Slab One", cursive;
+  color: #3d2514;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin-top: 20px;
+  letter-spacing: 2px;
+}
+p-10 {
+  font-family: "Montserrat", sans-serif;
+  color: #3d2514;
+  word-spacing: 5px;
+  display: inline-block;
+  margin-top: 30px;
+  line-height: 25px;
+}
+.slider-left {
+  padding: 50px 0px;
+}
+.backimg {
+  text-align: center;
+}
+.backimg img {
+  width: 100%;
+
+  margin-top: 80px;
+}
+
+.form {
+  position: relative;
+}
+p-11 {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+  display: inline-block;
+  right: 45%;
+  text-transform: uppercase;
+  font-family: "Bebas Neue", cursive;
+  color: #3d2514;
+  font-size: 30px;
+}
+h4 {
+  position: absolute;
+  top: 30%;
+  right: 37%;
+  font-family: "Alfa Slab One", cursive;
+  color: #3d2514;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 32px;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+}
+.input-box1 {
+  position: absolute;
+  top: 40%;
+  right: 26%;
+}
+input {
+  width: 350px;
+  padding: 14px 5px;
+}
+.input-box2 {
+  position: absolute;
+  top: 46%;
+  right: 26%;
+}
+.input-box3 {
+  position: absolute;
+  top: 52%;
+  right: 26%;
+  display: flex;
+}
+.table a {
+  text-decoration: none;
+  background-color: #bf2222;
+  color: white;
+  padding: 3px 116px;
+  display: inline-block;
+  margin-left: 5px;
+  font-size: 30px;
+  border-radius: 3px;
+  font-family: "Bebas Neue", cursive;
+}
+.footer {
+  background-image: url("last.png");
+  width: 98%;
+  margin-left: 16px;
+  margin-bottom: 16px;
+  background-repeat: no-repeat;
+  height: auto;
+  background-size: 100% 100%;
+  height: 80vh;
+}
+.last-logo img {
+  color: white;
+  padding: 70px 50px;
+}
+.last-mid {
+  display: flex;
+  justify-content: space-between;
+}
+.l-left {
+  color: white;
+  margin: 0px 50px;
+  line-height: 22px;
+  word-spacing: 3px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.l-right {
+  color: white;
+  font-family: "Bebas Neue", cursive;
+  margin-right: 150px;
+  letter-spacing: 1px;
+  word-spacing: 2px;
+}
+.l-first a {
+  color: white;
+  font-size: 30px;
+}
+.l-second a {
+  color: white;
+  font-size: 25px;
+}
+.last-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 180px;
+}
+p-14 {
+  color: white;
+  margin: 0px 50px;
+  font-family: "Bebas Neue", cursive;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+.lb-left {
+  margin-right: 100px;
+}
+.lb-left a {
+  color: black;
+  background: white;
+  font-size: 30px;
+  margin-right: 10px;
+  text-decoration: none;
+  border-radius: 100%;
+}
